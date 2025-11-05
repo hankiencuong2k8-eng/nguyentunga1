@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Nguyễn Tú Nga</title>
+    <style>
+        /* Giao diện tổng thể */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #cfe9ff, #ffffff);
+            color: #003366;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Phần đầu trang */
+        header {
+            text-align: center;
+            background-color: rgba(180, 220, 255, 0.9);
+            padding: 30px 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            color: #004d80;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-style: italic;
+            color: #004466;
+        }
+
+        /* Khung nội dung chính */
+        .container {
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin: 30px auto;
+            padding: 30px 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            color: #006699;
+            border-bottom: 2px solid #a3d2ff;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
